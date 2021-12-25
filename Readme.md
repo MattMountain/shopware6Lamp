@@ -15,10 +15,6 @@ docker-compose exec webserver bash
 ```
 
 ```
-./setup.sh
-```
-
-```
 ./psh.par install
 ```
 
