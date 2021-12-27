@@ -1,0 +1,9 @@
+version: '2'
+
+options:
+    max-attempt: 30
+
+syncs:
+    webserver:
+        src: './'
+        sync_excludes: ['.git', '.idea', 'dev-ops/docker/_volumes', 'var', '.docker-sync']

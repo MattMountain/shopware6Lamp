@@ -15,7 +15,7 @@ docker-compose exec webserver bash
 ```
 
 ```
-./psh.par install
+./psh.phar install
 ```
 
 ## Development
@@ -27,7 +27,7 @@ docker-compose exec webserver bash
 ```
 
 ```
-./psh.par storefront:watch
+./psh.phar storefront:watch
 ```
 
 ### Plugins folder is the folder where you save your shopware 6 plugins
